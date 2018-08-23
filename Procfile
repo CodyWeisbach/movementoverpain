@@ -1,0 +1,1 @@
+web: gunicorn mop.wsgi --log-file -
