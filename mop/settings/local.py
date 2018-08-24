@@ -25,7 +25,7 @@ SECRET_KEY = 'fwlj*+)g5hc26^j4447^nk_gvf+s2tv-z$x54*)w%x(77)9gly'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0', 'movementoverpain.herokuapp.com']
 
 
 # Application definition
