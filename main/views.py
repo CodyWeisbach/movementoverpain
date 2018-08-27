@@ -8,6 +8,6 @@ def index(request):
 	context = {
 	"title": "Choose Movement Over Pain"
 	}
-	return render(request, "index.html", context)
+	return render(request, "index2.html", context)
 
 
