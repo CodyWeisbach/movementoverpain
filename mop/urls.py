@@ -23,7 +23,8 @@ from main import views as main_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', main_views.index, name="index")
+    url(r'^$', main_views.index, name="index"),
+    url(r'^thx/$', main_views.thanks, name="thanks")
 ]
 
 if settings.DEBUG:	
