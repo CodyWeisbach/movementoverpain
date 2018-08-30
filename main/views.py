@@ -18,5 +18,9 @@ def index(request):
 	return render(request, "index.html", context)
 
 def thanks(request):
-	return HttpResponse("this is the initial thanks page")
+	title = "Thanks! | Movement Over Pain"
+	context = {
+		"title": title,
+	}
+	return render(request, "thx.html", context)
 

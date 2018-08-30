@@ -1,0 +1,55 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+        <title>{{ title }}</title>
+    
+        <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css" />
+        
+    </head>
+
+    <body id="home">
+        <section id="masthead">
+            <h1>
+                <a href="{% url 'index' %}">Movement Over Pain</a>
+            </h1>
+        </section>
+
+        <div id="content">
+            <section id="intro">
+                <h1>
+                    Welcome to the Movement! 
+                </h1><p>
+                    The Pain Science Excercise Concepts mini-course will be in your inbox any minute! We’ll also send you our best tips, exercises, progressions and resources to support you on this journey of choosing movement over pain. If you have any questions just hit reply to one of our emails. We’re always here to help!
+                </p><h2>
+                    Here's what to do next...
+                </h2><p><strong>
+                    Step 1: Connect on Facebook
+                </strong></p><p>
+                    Get our best new videos and tips in your feed
+                </p><p><strong>
+                    Step 2: Find a free article you can use
+                </strong></p><p>
+                    In the articles secion, you'll find videos of our curated list of exercises, resources we like for moving with pain, and the tips and ideas that tend to be most helpful. 
+                </p><p><strong>
+                    Step 3: Go check out the Pain Science Exercise Concepts course
+                </strong></p><p>
+                    Check the email address you gave us and start the process of learning how to successfully improve your fitness without hurting more. 
+                </p>  
+            
+            </section>
+            
+            <section id="footer">
+                <p>
+                    &copy; Cody Weisbach, PT, DPT, OCS, FAAOMPT 
+                </p>
+            </section>
+            
+        </div>
+    </body>
+</html>
