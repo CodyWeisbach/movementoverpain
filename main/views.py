@@ -24,3 +24,9 @@ def thanks(request):
 	}
 	return render(request, "thx.html", context)
 
+def beta(request):
+	title = "You are In! | Movement Over Pain"
+	context = {
+		"title": title,
+	}
+	return render(request, "beta.html", context)
